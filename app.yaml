@@ -1,0 +1,26 @@
+application: devfestgug
+version: alpha-001
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: index.html
+  upload : index.html
+
+- url: /css/(.*)
+  static_files: css/\1
+  upload : css/.*
+
+- url: /js/(.*)
+  static_files: js/\1
+  upload : js/.*
+
+- url: /fonts/(.*)
+  static_files: fonts/\1
+  upload : fonts/.*
+
+- url: /images/(.*)
+  static_files: images/\1
+  upload : images/.*

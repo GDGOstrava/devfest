@@ -1,0 +1,202 @@
+/* Header menu 
+Uses a transparent header that draws on top of the layout's background */
+body {
+      
+      font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #757575;
+}
+
+h4 {
+    margin-bottom: 20px;
+
+}
+
+h1, h2, h3, h4 {
+    font-weight: 100;
+
+}
+
+.line {
+    height: 1px;
+    border-bottom: 1px solid #eee;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dates {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+}
+
+p {
+  display: block;
+
+}
+.home-info {
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+.section-primary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+  
+.section-secondary {
+    background-color: #00BCD4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}    
+
+.section-shadow {
+    
+    z-index: 1;
+    box-shadow: 0 1px 5px 2px rgba(0,0,0,.25);
+}
+
+
+.demo-layout-transparent {
+      max-width: 1280px;
+      margin: 0 auto;
+      
+    }
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button, 
+.mdl-layout__header-row .mdl-navigation__link {
+      /* This background is dark, so we set text to white. Use 87% black instead if
+         your background is light. */
+      color: #4E4E4E;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      
+
+    }
+
+.mdl-button {
+      color: #00BCD4;
+}
+
+.mdl-button:hover {
+      text-decoration: none;
+      color: #00BCD4;
+}
+
+.mdl-button--raised {
+      background: #00BCD4;
+      color: #fff;
+}
+
+.home, .static-info {
+      max-width: 1280px;
+      margin: 0 auto;
+
+}
+.intro {
+    background: url('../images/background.png') center / cover;
+    min-height: 650px;
+}
+
+.home {
+      padding-top: 40px;
+  
+}
+
+.section-right {
+  right: 0;
+      margin: 0 16px;
+      margin-top: -68px;
+    position: absolute;
+}
+
+.counter {
+      display: block;
+      font-size: 46px;
+      font-weight: 100;
+      color: #fff;
+      text-align: center;
+}
+
+.description {
+      display: block;
+      font-size: 14px;
+      color: #fff;
+      text-align: center;
+}
+
+
+footer {
+      padding-top: 40px;
+      font-weight: 100;
+      color: #757575;
+      background: #FCFCFC;
+
+}
+
+.footer-block {
+    display:block;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.footer-block-description {
+    display:block;
+    margin-top: 9px;
+}
+
+.fa {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+footer a {
+    color:#757575;
+
+}
+footer a:hover {
+    color:#757575;
+    
+}
+
+footer form label {
+      margin-bottom: 0px
+}
+
+.mdl-textfield.is-invalid .mdl-textfield__input {
+    border-color: rgba(0,0,0,.12);
+    box-shadow: none;
+}
+
+
+footer ul{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  #menu-burger { display: block; } 
+}
+
+@media screen and (min-width: 1024px) {
+  #menu-burger { display: none; }   /* hide it elsewhere */
+}
+
+
