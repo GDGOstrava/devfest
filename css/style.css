@@ -2,7 +2,7 @@
 Uses a transparent header that draws on top of the layout's background */
 body {
       
-      font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-family:'Roboto', sans-serif;
 }
 
 h3 {
@@ -30,6 +30,14 @@ h1, h2, h3, h4 {
 
 .text-center {
     text-align: center;
+}
+
+.white {
+  color:#fff;
+}
+
+.graybg {
+    background: #FCFCFC;
 }
 
 .dates {
@@ -90,6 +98,7 @@ p {
 
 .mdl-button {
       color: #00BCD4;
+      margin: 5px;
 }
 
 .mdl-button:hover {
@@ -108,7 +117,8 @@ p {
 
 }
 .intro {
-    background: url('../images/background.png') center / cover;
+    padding-top: 20px;
+    background: url('../images/background-1.png') center / cover;
     min-height: 650px;
 }
 
@@ -144,8 +154,6 @@ footer {
       padding-top: 40px;
       font-weight: 100;
       color: #757575;
-      background: #FCFCFC;
-
 }
 
 .footer-block {
@@ -173,10 +181,10 @@ footer a:hover {
     color:#757575;
     
 }
-
-footer form label {
+.mdl-textfield__label {
       margin-bottom: 0px
 }
+
 
 .mdl-textfield.is-invalid .mdl-textfield__input {
     border-color: rgba(0,0,0,.12);
@@ -189,14 +197,6 @@ footer ul{
     margin-bottom: 9px;
     list-style-type: none;
     padding-left: 0;
-}
-
-@media screen and (min-width: 200px) and (max-width: 1024px) {
-  #menu-burger { display: block; } 
-}
-
-@media screen and (min-width: 1024px) {
-  #menu-burger { display: none; }   /* hide it elsewhere */
 }
 
 

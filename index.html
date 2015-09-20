@@ -7,13 +7,13 @@
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     
-    <meta property="og:site_name" content="Devfest.Gug.CZ">
+    <meta property="og:site_name" content="Devfest.CZ">
     <meta property="og:title" content="GDG DevFest Ostrava 2015">
     <meta property="og:locale" content="cs_CZ">
     <meta name="description" content="GDG Devfest Czech Republic Ostrava">
-    <meta property="og:description" content="GDG Devfest Czech Republic Ostrava">
+    <meta property="og:description" content="GDG Devfest Czech Republic Ostrava. Největší technologická konference v ČR, plná přednášek, workshopů o Androidu, Cloudu, hrách atd.">
     <meta property="og:image" content="">
-    <meta property="og:url" content="http://devfest.gug.cz/">
+    <meta property="og:url" content="http://www.devfest.cz/">
 
     <link rel="author" href="" />
 
@@ -64,7 +64,8 @@
     <!--Mailchimp Pop-up-->
     <!--<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"2de1bee96619e47c20b92a63a","lid":"84f9c1d8f0"}) })</script>-->
 
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <div class="demo-layout-transparent mdl-js-layout">
+    <!--<div class="demo-layout-transparent  mdl-layout mdl-js-layout">-->
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
           <!-- Title -->
@@ -73,9 +74,10 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Intro</a>
+            <a class="mdl-navigation__link" href="http://www.devfest.cz">Intro</a>
             <!--<a class="mdl-navigation__link" href="">Speakers</a>-->
-            <a class="mdl-navigation__link" href="">Register</a>
+            <a class="mdl-navigation__link" href="#register">Registrace</a>
+            <!--<a class="mdl-navigation__link" href="http://archiv.devfest.cz">Archiv</a>-->
             <!--<a class="mdl-navigation__link" href="">Venue</a>-->
           </nav>
         </div>
@@ -84,9 +86,10 @@
         <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">DevFest 2015</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Intro</a>
+          <a class="mdl-navigation__link" href="http://www.devfest.cz">Intro</a>
           <!--<a class="mdl-navigation__link" href="">Speakers</a>-->
-          <a class="mdl-navigation__link" href="">Register</a>
+          <a class="mdl-navigation__link" href="#register">Registrace</a>
+          <!--<a class="mdl-navigation__link" href="http://archiv.devfest.cz">Archiv</a>-->
           <!--<a class="mdl-navigation__link" href="">Venue</a>-->
         </nav>
       </div>
@@ -97,26 +100,17 @@
 
     <section id="home" class="intro">
       <div class="mdl-grid static-info">
-        <div class="mdl-cell mdl-cell--7-col">
-          <img src="./images/devfest2015.png" width="320" alt="DevFest 2015 Ostrava">
+        <div class="mdl-cell mdl-cell--7-col mdl-cell--4-col-tablet mdl-cell--3-col-phone">
+          <img src="./images/devfest2015.png" width="300" alt="DevFest 2015 Ostrava">
           <p class="dates">LISTOPAD 21, OSTRAVA</p>
 
-          <p class="home-info">Největší technologická konference v ČR letos poprvé v Ostravě!!! právě pro vás od GDG komunit. Vše co jste chtěli vědět o technologiích a rozvoji na jednom místě</p>  
+          <p class="home-info">Největší technologická konference v ČR letos poprvé v Ostravě!!! Právě pro vás od GDG komunit. Vše co jste chtěli vědět o technologiích a rozvoji na jednom místě</p>  
 
           <p>THINK OUT OF THE BOX. CREATE WHAT YOU WANT!</p>
           <!-- Flat button -->
         
-          <a href="https://goo.gl/Gg9Qy7" class="mdl-button">Chci být speaker</a>
-            <input type=button class="mdl-button mdl-js-button"  onClick="https://goo.gl/Gg9Qy7" value='Chci být speaker'>
-
-        
-
-          
-
-          <!-- Colored raised button -->
-          <button class="mdl-button mdl-js-button mdl-button--raised ">
-            Chci se registrovat
-          </button>
+          <a href="https://goo.gl/Gg9Qy7" class="mdl-button mdl-js-button mdl-button--raised" target="_blank">Chci být speaker</a>
+          <a href="#register" class="mdl-button mdl-js-button mdl-button--raised scrollto">Chci se registrovat</a>
         </div>
         
       </div>
@@ -140,6 +134,7 @@
           <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--6-col-phone">
             <span class="counter">500</span>
             <span class="description">účastníků</span>
+
           </div>
           <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--6-col-phone">
             <span class="counter">1</span>
@@ -168,13 +163,42 @@
       LAST YEAR
       </div>
     </section>
+-->
+    <section id="register" class="section-primary graybg">
+      <div class="static-info text-center">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col">
+            <H3>REGISTRACE</H3>
+            <H4>Chceš jako první vědět až spustíme registrace?</br> Vyplň svůj email a budeme Tě informovat včas.</br>Nic se neboj, taky nemáme rádi SPAM a nebudeme ho posílat.</H4>
+          </div>
+        </div>
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col">
+            <!-- Begin MailChimp Signup Form -->
+          
+            <div id="mc_embed_signup">
+              <form action="//gug.us11.list-manage.com/subscribe/post?u=2de1bee96619e47c20b92a63a&amp;id=84f9c1d8f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll" class="mdl-textfield mdl-js-textfield">
+                    <label class="mdl-textfield__label" for="mce-EMAIL"></label>
+                    <input type="email" value="" name="EMAIL" class="mdl-textfield__input white" id="mce-EMAIL" placeholder="Tvůj email..." required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2de1bee96619e47c20b92a63a_84f9c1d8f0" tabindex="-1" value=""></div>
+                    
+                  </div>
+                  <div class="clear">
+                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    </div>
+              </form>
+            </div>
+          </div>
+        </div>
+            <!--End mc_embed_signup-->
 
-    <section id="register" class="section-secondary section-shadow">
-      <div class="static-info">
-      REGISTER
+      
       </div>
     </section>
-
+    <div class="line"></div>
+<!--
     <section id="news" class="section-primary">
       <div class="static-info">
       NEWS
@@ -197,23 +221,27 @@
       <div class="static-info text-center">
         <H3>PARTNEŘI</H3>
         <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--6-col">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
             <H4>Pořádá</H4>
-            <img src="./images/logo-gug.png">
+            <a href="http://www.gug.cz" target="_blank"><img src="./images/logo-gug.png" alt="GUG.cz"></a>
           </div>
-          <div class="mdl-cell mdl-cell--6-col">
+          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
             <H4>ve spolupráci s</H4>
-            <img src="./images/googlelogo.png" height="80px">
+            <a href="http://www.google.com" target="_blank"><img src="./images/googlelogo.png" height="80px" alt="Google"></a>
           </div>
         </div>
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--12-col">
             <H4>Hlavní partner</H4>
-              <img src="./images/tieto.png" height="100px">
+              <a href="http://www.tieto.com" target="_blank"><img src="./images/tieto.png" height="100px" alt="Tieto"></a>
           </div>
           <div class="mdl-cell mdl-cell--12-col">
             <H4>Venue partner</H4>
-              <img src="./images/vsb-cpi.jpg" height="180px">
+              <a href="http://cpi.vsb.cz/cpi/uvodni-stranka-cpi/" target="_blank"><img src="./images/vsb-cpi.jpg" height="120px" alt="VŠB-TUO"></a>
+          </div>
+          <div class="mdl-cell mdl-cell--12-col">
+            <H4>Hlavní mediální partner</H4>
+              <a href="http://www.dotekomanie.cz" target="_blank"><img src="./images/dotekomanie.png" height="90px" alt="Dotekománie"></a>
           </div>
         </div>
         <div class="mdl-grid">
@@ -225,14 +253,19 @@
     </section>
 
     <div class="line"></div>
-    <footer class="static-info footer">
+    <footer class="static-info footer graybg">
 
       <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--3-col">
             <span class="footer-block">Pro návštěvníky</span>
               <ul>
                 <li><a href="https://developers.google.com/groups/directory/" target="_blank">Google Developers</a></li>
-                <!--<li>GDG DevFest Praha 2014</li>-->
+                <li><a href="http://prague2014.devfest.cz/" target="_blank">GDG DevFest Praha 2014</a></li>
+                <li><a href="http://prague2013.devfest.cz/" target="_blank">GDG DevFest Praha 2013</a></li>
+                <li><a href="http://pardubice2013.devfest.cz" target="_blank">GDG DevFest Pardubice 2013</a></li>
+                <li><a href="http://prague2012.devfest.cz/" target="_blank">GDG DevFest Praha 2012</a></li>
+
+                
               </ul>
           </div>
           <div class="mdl-cell mdl-cell--3-col">
@@ -247,9 +280,9 @@
            <ul>
             <li><a href="mailto:gdgostrava@gug.cz?Subject=DevFest2015">gdgostrava@gug.cz</a></li>
             <li>
-              <a href="https://www.facebook.com/gxgostrava"><i class="fa fa-facebook-square fa-2x"></i></a>
-              <a href=""><i class="fa fa-google-plus-square fa-2x"></i></a>
-              <a href="https://twitter.com/GXG_Ostrava"><i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="https://www.facebook.com/gxgostrava" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+              <a href="https://plus.google.com/112342577449557575881" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+              <a href="https://twitter.com/GXG_Ostrava" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
             </li>
            </ul>
             
