@@ -198,3 +198,31 @@ footer ul{
     list-style-type: none;
     padding-left: 0;
 }
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: auto
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+@media only screen 
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (width : 667px)
+    and (height : 375px)
+    and (orientation : landscape) 
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 667/375)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2) { 
+
+}
