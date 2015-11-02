@@ -127,6 +127,32 @@ p {
   
 }
 
+
+#speakers-list .item{
+  background: #00BCD4;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
 .section-right {
   right: 0;
       margin: 0 16px;
@@ -216,7 +242,7 @@ footer ul{
 @media only screen 
     and (min-device-width : 375px)
     and (max-device-width : 667px)
-    and (width : 667px)
+    joand (width : 667px)
     and (height : 375px)
     and (orientation : landscape) 
     and (color : 8)

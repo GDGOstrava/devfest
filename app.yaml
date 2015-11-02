@@ -9,6 +9,16 @@ handlers:
   static_files: index.html
   upload : index.html
 
+- url: /potvrzeni(.*)
+  mime_type: text/html
+  static_files: potvrzeni/index.html
+  upload: potvrzeni/index\.html$
+
+- url: /speakers(.*)
+  mime_type: text/html
+  static_files: speakers/index.html
+  upload: speakers/index\.html$
+
 - url: /css/(.*)
   static_files: css/\1
   upload : css/.*
