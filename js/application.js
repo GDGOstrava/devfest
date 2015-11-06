@@ -38,3 +38,12 @@ $(document).ready(function() {
   });
   owl.trigger('owl.play',3000); //owl.play event accept autoPlay speed as second parameter
 });
+
+
+$(document).scroll(function() {
+  
+  if ($(this).scrollTop() > 1) {
+    $("navbar").css("background-color", "#00BCD4");
+    $("navbar-nav").css("background-color", "#00BCD4");
+  }
+});

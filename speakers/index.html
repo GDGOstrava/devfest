@@ -49,10 +49,10 @@
     <link rel="stylesheet" href="../css/style.css" />
 
     <!-- Important Owl stylesheet -->
-    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="http://www.devfest.cz/css/owl.carousel.css">
  
     <!-- Default Theme -->
-    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="http://www.devfest.cz/css/owl.theme.css">
 
 
     <!--<link rel="stylesheet" href="css/lightbox.min.css" />
@@ -77,241 +77,1170 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5KTDD8');</script>
     <!-- End Google Tag Manager -->
-
-    <div class="demo-layout-transparent mdl-js-layout">
-    <!--<div class="demo-layout-transparent  mdl-layout mdl-js-layout">-->
-      <header class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-          <!-- Navigation -->
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="http://www.devfest.cz">DevFest</a>
-            <a class="mdl-navigation__link" href="./speakers/">Speakers</a>
-            <a class="mdl-navigation__link" href="#register">Registrace</a>
-            <!--<a class="mdl-navigation__link" href="http://archiv.devfest.cz">Archiv</a>-->
-            <!--<a class="mdl-navigation__link" href="">Venue</a>-->
-          </nav>
-        </div>
-      </header>
-      
-        <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">DevFest 2015</span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="http://www.devfest.cz">DevFest</a>
-          <a class="mdl-navigation__link" href="/speakers/">Speakers</a>
-          <a class="mdl-navigation__link" href="#register">Registrace</a>
-          <!--<a class="mdl-navigation__link" href="http://archiv.devfest.cz">Archiv</a>-->
-          <!--<a class="mdl-navigation__link" href="">Venue</a>-->
-        </nav>
-      </div>
     
-      <main class="mdl-layout__content">
-      </main>
+      <nav class="navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <!-- Navbar-Header -->
+                      <div class="navbar-header">
+                          
+                          <!-- Mobile Menu -->
+                          <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                              <i class="fa fa-bars"></i>
+                          </button>
+
+                          <!--Image-Logo: Remove this comments and the section above Text-Logo if you want to add an Image-Logo (recommended sizes -> max-height:50, max-width:200) -->
+
+                          <a href="#top" class="navbar-brand img-logo scrollto" title="DevFest 2015 Ostrava">
+                            <span class="helper">
+                              <img src="../images/devfest2015.png" width="180" alt="DevFest 2015 Ostrava">
+                            </span>
+                          </a> 
+
+                      </div><!-- /End Navbar-Header -->
+
+                      <!-- Navbar-Collapse -->
+                      <div class="navbar-collapse collapse">
+                          <ul class="nav navbar-nav navbar-right">
+                              <!-- Menu Items -->
+                              <li><a href="http://www.devfest.cz" title="" class="scrollto">DevFest</a></li>
+                              <li><a href="/speakers/" title="" class="scrollto">Speakers</a></li>
+                              <li><a href="http://www.devfest.cz/#register" title="" class="scrollto">Registrace</a></li>
+                          </ul>
+                      </div><!-- /End Navbar-Collapse -->
+                  </div><!-- /End Col -->
+              </div><!-- /End Row -->
+          </div><!-- /End Container -->
+      </nav><!-- /End Sticky Navigation -->
+    
+
+    
+
+    
+    <section class="section-secondary">
+      <div class="static-info">
+        <!--<img src="../images/devfest2015.png" width="300" alt="DevFest 2015 Ostrava">-->
+        <div class="mdl-grid text-center">
+          <div class="mdl-cell mdl-cell--12-col">
+            <H3 style="color:#fff">Speakers</H3>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-primary static-info">
+      <div class="mdl-grid text-center">
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#broum">
+          <img src="../images/speakers/broum_photo.png" height="200px">
+          <h4>Milan Broum</h4>
+          <h5>iOS Developer, Google</h5>
+          <span class="label label-development">Development</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#bechynsky">
+          <img src="../images/speakers/bechynsky_photo.png" height="200px">
+          <h4>Štěpán Bechynský</h4>
+          <h5>Hello Hardware</h5>
+          <span class="label label-openhw">OpenHW</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#hantl">
+          <img src="../images/speakers/hantl_photo.png" height="200px">
+          <h4>Michal Hantl</h4>
+          <h5>Rapid product prototyping</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#pernica">
+          <img src="../images/speakers/pernica_photo.png" height="200px">
+          <h4>Martin Pernica</h4>
+          <h5>Boj o každé FPS</h5>
+          <span class="label label-development">Development</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#hruban">
+          <img src="../images/speakers/hruban_photo.png" height="200px">
+          <h4>Lubomír Hruban</h4>
+          <h5>Lego4Scrum</h5>
+          <span class="label label-ws">Workshop</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#knesl">
+          <img src="../images/speakers/knesl_photo.png" height="200px">
+          <h4>Jiří Knesl</h4>
+          <h5>Continuous Improvement</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#pridal">
+          <img src="../images/speakers/pridal_photo.png" height="200px">
+          <h4>Marek Přidal</h4>
+          <h5>Big Data - Hromada dat</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#krcek">
+          <img src="../images/speakers/krcek_photo.png" height="200px">
+          <h4>Martin Krček</h4>
+          <h5>Tipy na vyšší příjmy z mobilních her</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#giecek">
+          <img src="../images/speakers/giecek_photo.png" height="200px">
+          <h4>Petr Giecek</h4>
+          <h5>App Engine - Vývoj škálovatelných aplikací a služeb</h5>
+          <span class="label label-development">Development</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#chudanic">
+          <img src="../images/speakers/chudanic_photo.png" height="200px">
+          <h4>Petr Chudanič</h4>
+          <h5>Compute Engine</h5>
+          <span class="label label-development">Development</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#vaculik">
+          <img src="../images/speakers/vaculik_photo.png" height="200px">
+          <h4>Přemysl Vaculík</h4>
+          <h5>Jak na komunikaci s novináři</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#kovac">
+          <img src="../images/speakers/kovac_photo.png" height="200px">
+          <h4>Dávid Kováč</h4>
+          <h5>Kvalitní mapy zdarma, pro všechny a hned</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#ptacnikova">
+          <img src="../images/speakers/ptacnikova_photo.png" height="200px">
+          <h4>Renata Ptáčníková</h4>
+          <h5>Jak (si) vytvořit komunitu a získat kontakty?</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#opletal">
+          <img src="../images/speakers/opletal_photo.png" height="200px">
+          <h4>Jiří Opletal</h4>
+          <h5>Rudý Android: Proč a jak nakupovat čínské telefony?</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#holan">
+          <img src="../images/speakers/holan_photo.png" height="200px">
+          <h4>Jaroslav Holaň</h4>
+          <h5>Zen Programmer</h5>
+          <span class="label label-development">Development</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#stanek">
+          <img src="../images/speakers/stanek_photo.png" height="200px">
+          <h4>Igor Staněk</h4>
+          <h5>SHIELD Android TV</h5>
+          <span class="label label-development">Development</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#hybl">
+          <img src="../images/speakers/hybl_photo.png" height="200px">
+          <h4>Matouš Hýbl</h4>
+          <h5>IoT pro SW developery</h5>
+          <span class="label label-openhw">OpenHW</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#kadlec">
+          <img src="../images/speakers/kadlec_photo.png" height="200px">
+          <h4>Josef Kadlec</h4>
+          <h5>Životopis je mrtvý: Praktická sonda do světa moderního tech recruitmentu</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#sedlak">
+          <img src="../images/speakers/sedlak_photo.png" height="200px">
+          <h4>Jan Sedlák</h4>
+          <h5>Digitální ekonomika, internet, roboti a Česko</h5>
+          <span class="label label-business">Business</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#velecky">
+          <img src="../images/speakers/velecky_photo.png" height="200px">
+          <h4>Tomáš Velecký</h4>
+          <h5>Tipy a triky pro AppsScript</h5>
+          <span class="label label-development">Development</span>
+        </div>
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone speaker" data-toggle="modal" data-target="#zavada">
+          <img src="../images/speakers/zavada_photo.png" height="200px">
+          <h4>Jiří Závada</h4>
+          <h5>Internet věcí - řádí zlatá horečka?</h5>
+          <span class="label label-development">Development</span>
+        </div>
+      </div>
+    </section>
+    
+    <!--
+    MODALS FOR SPEAKERS
+    -->
+
+    <div id="bechynsky" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header openhw">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/bechynsky_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Štěpán Bechynský</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">MSD IT Global Innovation Center, Senior Cloud and Web Services Specialist</h4>
+                <span class="label label-business">Business</span>
+                <span class="label label-development">Development</span>
+                <span class="label label-wtm">Women Tech Makers</span>
+                <span class="label label-openhw">OpenHW</span>
+                <span class="label label-ws">Workshop</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <span class="label label-openhw">OpenHW</span>
+            <h4><strong>Hello Hardware</strong></h4>
+            <p>
+              Správný programátor umí napsat Hello World! V několika programovacích jazycích. Ve světě hardware, přesněji jendonočipových počítačů, je obdobou Hello World! blikání LED. Během přednášky rozblikáme LED na Arduino, PICAXE, LaunchPad, mbed a Raspberry Pi. Dozvíte se, jak se jednotlivé platformy programují a k čemu jsou dobré.
+            </p>
+            <span class="label label-ws">Workshop</span>
+            <span class="label label-openhw">OpenHW</span>
+            <h4><strong>Arduino 101 Workshop</strong></h4>
+
+            <p>
+              Potřebujete ovládat otevírání oken ve skleníku podle teploty a vlhkosti? Chcete vědět, jakou máte teplotu v lednici? Hodil by se vám ukazatel vzdálenosti auta od zdi ve vaší garáži? Chcete vědět, kde je vaše auto nebo jízdní kolo? Na všechno toto existují nějaká hotová zařízení, která můžete nějak přiohnout - nebo si můžete postavit vlastní! Nejspíš to nebude lepší, levnější ani hezčí než to, co seženete v obchodě, ale postavíte si to sami, přesně na míru, a něco se přitom naučíte! Spoustu takových věcí, a ještě mnohem víc, si postavíte s Arduinem. Stačí jen vědět, jak na to! Půjčíme vám hardware, vy si donesete vlastní laptop a my vám ukážeme, jak na to. Více na <a href="http://arduino101.cz/">arduino101.cz</a>
+            </p>
+            <h4><strong>O Štěpánovi</strong></h4>
+            <p>
+            Po skoro devíti letech opustil Štěpán společnost Microsoft, kde pracoval jako Technical Evangelist se zaměřením na Microsoft Azure a zakotvil v klidnějších vodách farmaceutické společnosti MSD, kde má na starost infrastrukturu v Amazon Web Services. Ve volných chvílích se věnuje mikrokontrolérům a 3D tisku a víkendy tráví nejraději u plotny nebo přednášením o Arduino.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://cz.linkedin.com/in/stepanbechynsky" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/stepanb" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://twitter.com/stepanb" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com/stepanb" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="https://github.com/martindeveloper" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <section id="home" class="intro">
-      <div class="mdl-grid static-info">
-        <div class="mdl-cell mdl-cell--7-col mdl-cell--4-col-tablet mdl-cell--3-col-phone">
-          <img src="../images/devfest2015.png" width="300" alt="DevFest 2015 Ostrava">
-          <p class="dates">21. LISTOPADU, OSTRAVA</p>
-
-          <p class="home-info">Největší podzimní vývojářský festival v ČR letos poprvé v Ostravě!!! Právě pro vás od GDG komunit. Vše co jste chtěli vědět o technologiích a rozvoji na jednom místě.</p>  
-
-          <p>OD VÝVOJÁŘŮ, PRO VÝVOJÁŘE.</p>
-          <!-- Flat button -->
-        
-          <a href="https://goo.gl/Gg9Qy7" class="mdl-button mdl-js-button mdl-button--raised" target="_blank">Chci přednášet</a>
-          <a href="https://goo.gl/ibqWfG" class="mdl-button mdl-js-button mdl-button--raised" target="_blank">Chci se registrovat</a>
-        </div>
-        
-      </div>
-    </section>
-    <section class="">
-    </section>
-
-
-
-
-    <section class="section-secondary section-shadow">
-      <!-- Colored FAB button -->
-        
-      <div class="static-info">
-        <a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=GDG%20DevFest%20Ostrava%202015&amp;dates=20151121T100000/20151121T180000&amp;details=Největší%20vývojářská%20akce%20podporovaná%20Google.%20Detaily%20zde%20http://www.devfest.cz&amp;location=&amp;pli=1&amp;uid=&amp;sf=true&amp;output=xml#eventpage_6" target="_blank">
-          <button class="section-right mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-          <i class="material-icons">today</i>
-          </button>
-        </a>
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--6-col-phone">
-            <span class="counter">500</span>
-            <span class="description">účastníků</span>
-
-          </div>
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--6-col-phone">
-            <span class="counter">1</span>
-            <span class="description">den</span>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--6-col-phone">
-            <span class="counter">30</span>
-            <span class="description">přednášejících</span>
-          </div>
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--6-col-phone">
-            <span class="counter">3</span>
-            <span class="description">paralelní programy</span>
-          </div>
-        </div>
-      </div>
-    </section>
-<!--
-    <section id="speakers" class="section-primary">
-      <div class="static-info">
-      SPEAKERS
-      </div>
-    </section>
-
-    <section id="lastseason" class="section-secondary section-shadow">
-      <div class="static-info">
-      LAST YEAR
-      </div>
-    </section>
--->
-    <section id="register" class="section-primary graybg">
-      <div class="static-info text-center">
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kTgPjL_eAMw" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone" style="margin-top:50px">
-            <H3>REGISTRACE</H3>
-            <H4>A je to tady, registrace oficiálně spuštěny!!!</br>Neváhej a vyplň nám registrační formulář, ale rychle ať na Tebe vyjde místo.</br>Registraci Ti v brzké době potvrdíme mailem ;)</H4>
-            <a href="https://goo.gl/ibqWfG" class="mdl-button mdl-js-button mdl-button--raised" target="_blank" style="margin-top:20px">Chci se registrovat</a>
-          </div>
-        </div>
-    </section>
-    <div class="line"></div>
-<!--
-    <section id="news" class="section-primary">
-      <div class="static-info">
-      NEWS
-      </div>
-    </section>
-
-    <section id="social" class="section-secondary section-shadow">
-      <div class="static-info">
-      SOCIAL
-      </div>
-    </section>
-
-    <section id="venue" class="section-primary">
-      <div class="static-info">
-      VENUE
-      </div>
-    </section>
--->
-    <section id="partners" class="section-primary">
-      <div class="static-info text-center">
-        <H3>PARTNEŘI</H3>
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-            <H4>Pořádá</H4>
-            <a href="http://www.gug.cz" target="_blank"><img src="../images/logo-gug.png" alt="GUG.cz"></a>
-          </div>
-          <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-            <H4>ve spolupráci s</H4>
-            <a href="http://www.google.com" target="_blank"><img src="../images/googlelogo.png" height="80px" alt="Google"></a>
-          </div>
-        </div>
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--12-col">
-            <H4>Hlavní partner</H4>
-              <a href="http://www.tieto.com" target="_blank"><img src="../images/tieto.png" height="100px" alt="Tieto"></a>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col">
-            <H4>Venue partner</H4>
-              <a href="http://cpi.vsb.cz/cpi/uvodni-stranka-cpi/" target="_blank"><img src="../images/vsb-cpi.jpg" height="120px" alt="VŠB-TUO"></a>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col">
-            <H4>Hlavní mediální partner</H4>
-              <a href="http://www.dotekomanie.cz" target="_blank"><img src="../images/dotekomanie.png" height="90px" alt="Dotekománie"></a>
-          </div>
-          <div class="mdl-cell mdl-cell--12-col medial">
-            <H4>Mediální partneři</H4>
+    <div id="hantl" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
             <div class="mdl-grid">
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.netovinky.com" target="_blank"><img src="../images/netovinky.png" height="50px" alt="Netovinky.com"></a>
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/hantl_photo.png" height="100px">
               </div>
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.cnews.cz" target="_blank"><img src="../images/cnews.png" alt="Cnews.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.droidik.eu/" target="_blank"><img src="../images/droidik.png" height="60px" alt="Droidik.eu"></a>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Michal Hantl</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">RoR developer na volné noze</h4>
+                <span class="label label-business">Business</span>
               </div>
             </div>
           </div>
-        </div>
-        <div class="mdl-cell mdl-cell--12-col medial">
-            <H4>Partneři</H4>
-            <div class="mdl-grid">
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.raynet.cz" target="_blank"><img src="../images/raynet.png" height="50px" alt="Raynet.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.sde.cz" target="_blank"><img src="../images/partners/sde.png" height="50px" alt="Sde.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://xiaomimobile.cz/" target="_blank"><img src="../images/partners/xiaomimobile.png" height="50px" alt="Xiaomimobile.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.androidforum.cz" target="_blank"><img src="../images/partners/androidforum.png" height="50px" alt="androidforum.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="https://www.jetbrains.com/" target="_blank"><img src="../images/partners/jetbrains.png" height="50px" alt="jetbrains.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.danter.cz/" target="_blank"><img src="../images/partners/danter.png" height="40px" alt="danter.cz"></a>
-              </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Rapid product prototyping</strong></h4>
+            <p>
+              Spousta lidí něco zkouší, ale často vidím že jim trvá roky než něco vytvoří a pak už je často pozdě, protože motivace je ta tam.
+              Ukážu vám, jak co nejrychleji připravit váš produkt, abyste ho mohli začít prodávat.
+            </p>
+            <h4><strong>O Michalovi</strong></h4>
+            <p>
+            Začal jsem jako Ruby on Rails vývojář pro malý startup a začal se věnovat vlasntím aplikacím. Mám za sebou 3 roky budování SaaS aplikací a spoustu failů, které vám pomůžu neopakovat :)
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/michalhantl" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/michal_hantl" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://www.facebook.com/michal.hantl" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
             </div>
-            <div class="mdl-grid">
-              
-            </div>      
-        </div>
-        <div class="mdl-cell mdl-cell--12-col medial">
-            <H4>Podporují nás</H4>
-            <div class="mdl-grid">
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.kovork.cz" target="_blank"><img src="../images/partners/kovork.png" height="50px" alt="Kovork.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.hubostrava.cz" target="_blank"><img src="../images/partners/impact-hub-logo.png" height="50px" alt="Hubostrava.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.vivaostrava.cz/" target="_blank"><img src="../images/partners/vivalogo.png" height="50px" alt="Viva.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.czechitas.cz" target="_blank"><img src="../images/partners/czechitas.png" height="50px" alt="Czechitas.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.michalkral.cz" target="_blank"><img src="../images/michalkral.png" height="50px" alt="michalkral.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.itnetwork.cz" target="_blank"><img src="../images/partners/itnetwork.png" height="50px" alt="ITnetwork.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.zive.cz" target="_blank"><img src="../images/zive.png" height="50px" alt="zive.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.barcampostrava.cz" target="_blank"><img src="../images/partners/barcamp.png" height="40px" alt="barcamp.cz"></a>
-              </div>
-              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.shopsys.cz" target="_blank"><img src="../images/partners/shopsys.png" height="40px" alt="shopsys.cz"></a>
-              </div>
-            </div>    
+          </div>
         </div>
       </div>
-    </section><
+    </div>
+
+    <div id="pernica" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/pernica_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Martin Pernica</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Lead Developer</h4>
+                <span class="label label-development">Development</span>
+                <span class="label label-games">Games</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>Boj o každé FPS</strong></h4>
+
+            <p>
+              Mobilní platformy zažívají boom nejen z pohledu aplikací, ale i z pohledu her. Hry jsou větší, krásnější, reálnější a záživnější. Všechny tyto aspekty, ale nejsou jen tak, protože vyžadují nejen moderní hardware, ale skoro desktop-like software, kterým tyto věci vykreslíme. Přitom každý frame musí být vykreslený maximálně efektivně, abychom toho v celé sekundě zvládli maximum a získali co nejvíce FPS a nejlépe - stabilně. Na této přednášce se podíváme na aktuální stav vykreslování na Androidu pomocí OpenGL ES, zabrousíme i na Android Extension Pack a koukneme na moderní herní enginy Unreal Engine 4 a Unity 5.</a>
+            </p>
+            <h4><strong>O Martinovi</strong></h4>
+            <p>
+            Martin je herním vývojářem se zaměřením zejména na rendering a fyziku. Programováním je jeho vášní prakticky už od malička a již v té době měl velkou zálibu ve tvorbě her. Martin již spolupracoval na několika mobilních titulech i na PC a konzolových titulech, přičemž poslední byl titul RENOIR. Při své práci většinou používá herní engine Unreal Engine 4 a je taky licencovaným vývojářem na tento engine. Martin se vždy snaží dívat věcem 'pod kapotu' a optimalizovat je.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://twitter.com/martindeveloper" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://github.com/martindeveloper" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hruban" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header ws">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/hruban_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Lubomír Hruban</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Scrum Master v SDE</h4>
+                <span class="label label-business">Business</span>
+                <span class="label label-ws">Workshop</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-ws">Workshop</span>
+            <h4><strong>Lego 4 Scrum</strong></h4>
+            <p>
+              Hravá simulace, která účastníkům ukáže, jak funguje agilní framework Scrum. Uvidíte, že Scrum je zaměřen na vývoj produktů a nemusí to být jen software. Na workshopu budete budovat město z lega.
+              Přijďte a vyzkoušejte si, jaké to je pracovat podle populárního agilního frameworku!
+            </p>
+            <h4><strong>O Lubomírovi</strong></h4>
+            <p>
+            Lubomír je absolventem Fakulty Informatiky MU. Je nadšencem do agile. Své agilní znalosti aplikuje dennodenně v SDE, kde pracuje jako Scrum Master a pomáhá svému týmu dostat agile do krve do té míry, že už ho nebudou potřebovat. Ve své práci čelí výzvám spojeným s vývojem SW v outsourcingovém prostředí.
+            Mimo jiné ho baví modelování informační systémů a procesů. Tyto zájmy si nyní procvičuje jako cvičící předmětu Business Process Management na MU. S modelováním má také zkušenosti jako analytik z různých stáží.
+            Ve volném čase se věnuje kamarádům a kamarádkám, studiu Agile a UX, hlubokým filmovým diskuzím a cvičení.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://cz.linkedin.com/pub/lubomír-hruban/42/571/523" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="knesl" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/knesl_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Jiří Knesl</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Business & IT Consultant</h4>
+                <span class="label label-business">Business</span>
+                
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Continuous Improvement</strong></h4>
+            <p>
+              Agile buzzwordů zbavený. Být agilní opravdu není v tom dělat standupy, sprinty nebo párové programování. Není o názvosloví, o tom, kolik napíšete testů. Být agilní znamená být rychlejší, flexibilnější a vycházet zákazníkům lépe, než si umí jiní představit. Být agilní znamená zlepšovat se rychleji, než konkurence. Být agilní znamená iterovat rychleji než konkurence, mít kratší Time To Market. Já se zaměřím na to zlepšování se. Úspěšné agilní týmy se zlepšují nejrychlejším tempem, jakého jsou schopny. Výsledkem jsou pak týmy špičkových vývojářů, testerů, grafiků, UXáků, kteří doručují ve špičkové kvalitě.
+            </p>
+            <h4><strong>O Jiřím</strong></h4>
+            <p>
+            Jiří víc než 20 let vyvíjí software. Posledních 7 let hlavně informační systémy a webové aplikace. Je velkým příznivcem Test Driven Developmentu, agilních technik, metodik. Vystudoval ekonomii a mimo vývoje software pomáhá i jiným firmám při adopci agilních metodik (které vyvíjí firmám na míru), při rozsáhlých IT projektech. Mezi jeho klienty patří firmy jako AVG, Avast, ESET, Škoda, Porsche, Toyota Peugeot Citroen Automobile, České Radiokomunikace, AirBank, Dámejídlo atd.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://twitter.com/jiriknesl" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pridal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/pridal_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Marek Přidal</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Freelance writer</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Big Data - Hromada dat</strong></h4>
+            <p>
+              Začalo to jednoduchými statistikami, pokračovalo analýzou chování uživatelů a zatím končí u Big Data. Bez nich si už nepomůže žádný nadnárodní podnik, za poslední dva roky vzniklo víc dat, než za celou dobu existence lidstva a podle časopisu Fortune by obchodníci využívající Big Data mohou zvýšit své zisky o 60 procent. Big Data také pomohly německým fotbalistům vyhrát poslední mistrovství světa a během jednoho závodního víkendu F1 se podaří sesbírat až 150 GB dat. Big Data jsou všude a to jsme teprve na začátku.
+            </p>
+            <h4><strong>O Markovi</strong></h4>
+            <p>
+            Od roku 2011 aktivně vystupuje na internetu a v technologických médiích. O Big Data se zajímá 3 roky a mimo jiné vedl rozhovor s britským specialistou Lee Omarem nebo českým odborníkem pracující na zavádění velkých dat pro ČEZ Filipem Douškem. Momentálně píše pro magazíny Applikace, Ekonom a weby Cnews.cz a AndroidMarket. V minulosti působil jako externista pro technologickou rubriku Hospodářských novin.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="http://cz.linkedin.com/pub/marek-pridal/42/405/223" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="http://twitter.com/MarekPridal" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="http://www.facebook.com/marek.pridal" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="http://plus.google.com/+MarekPridal" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="krcek" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/krcek_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Martin Krček</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">CEO v Zero Zone Creative</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Tipy na vyšší příjmy z mobilních her</strong></h4>
+            <p>
+              Vyděláváte na hrách dost peněz? 
+              Ukáži vám, jak příjmy může znásobit -  a to ať děláte první hru, nebo jste ostřílené studio.
+              Začneme nezbytnou přípravou ve hře, vybereme nejlepší platformy a trhy. Podíváme se na nastavení iAP a na poslední trendy mobilní reklamy včetně Product Placementu. A na závěr trochu netradiční nástroje na generování příjmů.
+            </p>
+            <h4><strong>O Martinovi</strong></h4>
+            <p>
+              Více než 19 let pracuje v marketingu pro globální společnosti IBM, Sony, Citibank, Pfizer, AirFrance...
+              Poslední dva roky, jako šéf marketingu MADFINGER Games, realizoval komunikaci pro legendární tituly Dead Trigger 2, UNKILLED, MONZO....a staral se o spokojených 100 mil. hráčů.
+              Dnes pomáhá začínajícím i zavedeným herním studiím s maximalizací příjmů na světových trzích.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://cz.linkedin.com/in/martinkrcek" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="giecek" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/giecek_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Petr Giecek</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Senior Software Engineer @ Unicorn Systems</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>App Engine - Vývoj škálovatelných aplikací a služeb</strong></h4>
+            <p>
+              Představení Google App Enginu jako platformy pro vývoj a běh škálovatelných webových aplikací a serverových služeb pro mobilní zařízení. Seznámení s množstvím vestavěných služeb jako automatické škálování, autentikace, asynchronní zpracování, cacheování.
+            </p>
+            <h4><strong>O Petrovi</strong></h4>
+            <p>
+            Softwarový inženýr zabývající se vývojem webových aplikací a služeb postavených na Javě, Groovy a Pythonu. Příznivec cloudové revoluce a cloudových služeb seskupených pod hlavičkou Google Cloud Platform.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://cz.linkedin.com/in/petrgiecek" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="chudanic" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/chudanic_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Petr Chudanič</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Software Dev Staff Engineer @ Dell</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>Compute Engine</strong></h4>
+            <p>
+              Compute Engine, aneb způsob jak tvořit a provozovat virtuální mašiny na infrastruktuře Google. Mimo jiné také přímý konkurent EC2 od Amazonu.
+              Prezentace přiblíží tuto zajímavou službu z technického hlediska. 
+              <ul>
+              <li>Co tato služba nabízi a jak zapadá do portfolia Google Cloud Platform</li>
+              <li>Přístupová rozhraní - CLI, API, UI</li>
+              <li>Bližší technické detaily - disks, images, networks, administrace</li>
+              <li>Cenová politika aneb kolik a za co</li>
+              </ul>
+            </p>
+            <h4><strong>O Petrovi</strong></h4>
+            <p>
+            Měl to štěstí setkat se s Google Cloud Platform technologiemi v praxi :-)
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://cz.linkedin.com/pub/petr-chudanič/79/776/b96" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="vaculik" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/vaculik_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Přemysl Vaculík</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Šéfredaktor Dotekomanie.cz</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Jak na komunikaci s médii</strong></h4>
+            <p>
+              Novinář či blogger je zvláštní druh živočicha, který by se dal srovnat s kolibříkem. Je rychlý, nezůstane na jednom místě a rozhodně nemá čas na dlouhé povídání. Zaujmout takového novináře může znamenat lepší start pro vaši aplikaci či projekt.
+            </p>
+            <h4><strong>O Přemyslovi</strong></h4>
+            <p>
+            V roce 2006 se pustil do blogování, zejména se zaměřením na technologie. Následně si našel místo jako bloger u webu Mobilmania.cz, odkud se nakonec vydal po vlastní ose jako šéfredaktor magazínu Dotekomanie.cz. Mimo jiné se zaměřuje na hledání talentů z oblasti vývoje a programování. Nadšeně podporuje mladé vývojáře a projekty.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/premyslvaculik" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/premyslvaculik" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://www.facebook.com/premysl.vaculik" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://plus.google.com/+PremyslVaculik/posts" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="https://premyslvaculik.cz/" target="_blank">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="kovac" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/kovac_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Dávid Kováč</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Google Apps administrator</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Kvalitní mapy zdarma, pro všechny a hned</strong></h4>
+            <p>
+              Kto by nechcel kvalitné mapy celého sveta na jednom mieste, ľahko dostupné a hlavne zadarmo. Na to aby takéto mapy boli kvalitné je potreba pomôcť aj gigantovi ako Google. Porozprávame sa o službe MapMaker, vysvetlím jej prínosy ale aj úskalia.
+            </p>
+            <h4><strong>O Dávidovi</strong></h4>
+            <p>
+              David je velký fanoušek mnoha Google technologií. Na Slovensku byl první Google Glass Explorer a človek věnující se ""weareables"" technologiím na konferencích. Mezi tím implementoval Google Apps na svojí střední školu, vůbec první na Slovensku. Aktuálně se profesionálně zaměřuje na Google Apps technologie ve vlastní rozbíhající se firmě Adante Systems. Mimo tohto patří k jeho oblibám takéGoogle MapMaker, o kterém vám něco poví na DevFestu.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="http://twitter.com/kovkus" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="http://facebook.com/kovkus" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="http://google.com/+DavidKovac" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div id="ptacnikova" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/ptacnikova_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Renata Ptáčníková</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Zakladatelka Viva Ostrava</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Jak (si) vytvořit komunitu a získat kontakty?</strong></h4>
+            <p>
+              Kurz o získávání kontaktů a vytváření komunity jako nástroje k realizaci nápadu, myšlenky, neziskového projektu nebo firemní skupiny.
+
+              Vytvoření komunity není tak jednoduché, jak by se mohlo zdát. Otázkou je, PROČ člověk komunitu vytváří. Chceme více peněz? Chceme své ovečky? Chceme být populární? Ať je to tak či tak, myslím si, že to největší překvapení je v lidech.
+
+              Lidský život není marnivou přehlídkou toho, jak jsme neschopní, děsiví a marní. Je to nádherná škola výzev a života, protože cokoliv nás potká, můžeme použít pro další růst. Pro otevření se světu, lidem, prostoru kolem sebe a navnímání emocí, které nás tak moc obohacují. Je to společná a kontinuální práce nás všech neprve na sobě a později tažení všech za jeden provaz. Nikdo nejsme perfektní. A nikdy nebudeme. Jako celek ale můžeme využít sílu, na kterou se dá spolehnout. Můžeme sami na sobě odhalovat věci, které odsuzujeme na ostatních. A můžeme se tomu občas zasmát. Protože, jak připomínám moc ráda, jsme v tom společně. Rozděláváme oheň v dešti.
+
+              A ať to nevypadá příliš agitačně :). Komunita je základním článkem dnešní společnosti. Jak ji vytvořit tak, aby fungovala? Každá věc se skládá s maličkostí, z důležitých kroků a především, od vlastního motivu. A tím správným motivem je pro mě radost. Radost nemá dvojníka.
+
+              Jedním z mých úžasných talentů je spojovat. Jsou totiž tací, kterým to úplně nejde, a tak ráda odhalím kouzlo získávání kontaktů. Jde o to, na co se soustředit, aby se váš business rozjel do správných stran. Propojení je základ každého podnikání a neměl by se podceňovat.
+
+              Cíl kurzu
+
+              Všechno nemá výsledek, pokud člověk něco neudělá. Takže si prostě vyberete svůj šálek kávy, z možností, které naše město nabízí, vytvoříte ""svou"" komunitu v rámci sebe, projektu nebo firmy, a nebo se připojíte. Naučíte se mluvit s radostí o tom, co jste zažili, co právě děláte, co máte v úmyslu a otevřete, a odkryjte i věci, které se vám nepovedly. Najdete tak partnery, kamarády, inspirativní lidi i všeobecně známé ""hatery"", kteří jsou vaší výzvou mít váš projekt realizovatelný nebo nenechat se odradit. Vytvoříte si svou komunitu a budete umět jí ""prodat"". "
+            </p>
+            <h4><strong>O Renatě</strong></h4>
+            <p>
+            Renata Ptáčníková je zakladatelkou Viva Ostrava, nadšenou inovátorkou celospolečenských témat. Ráda spojuje, komunikuje a spolupracuje. Vivu založila proto, že chtěla vybudovat v Ostravě lidské a otevřené místo. Vyučuje na Vyšší Střední škole AHOL předmět Public Relations, stala se členem poradní skupiny Moravskoslezského kraje pro oblast rozvoje podnikání. Příležitostně moderuje. S Renatou se nejčastěji potkáte v článcích na blogu Vivy, jako hostem v České Televizi nebo v rozhovorech pro různá média. Je lektorkou několika kurzů: Guerilla, Pitch, Storytelling. Také je jedna z mentorek Viva Inklubátoru a spoluorganizátor TEDxOstrava. Miluje život a věří v lidský potenciál. V minulosti působila v mezinárodních i národních vzdělávacích a inovačních projektech. V současnosti připravuje knihu Nové podnikání a moderuje Vivácké konference a besedy. Ráda pečuje o svou rodinu a dvě malé děti. Jedním z jejích koníčků jsou thajské masáže, které studuje u Mistra Nikolase Christudoulu. 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="www.twitter.com/PtacnikovaR" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100008389923082" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div id="opletal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/opletal_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Jiří Opletal</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Freelance writer</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Rudý Android: Proč a jak nakupovat čínské telefony?</strong></h4>
+            <p>
+              <ul>
+                <li>Základní informace o čínském mobilním trhu</li>
+                <li>Posun od klonů a HiPhonů k vlastnímu brandingu a inovacím</li>
+                <li>Kdo jsou ve skutečnosti největší globální výrobci smartphonů?</li>
+                <li>Za málo peněz hodně muziky</li>
+                <li>Souboj titánů</li>
+                <li>Jak se vyznat v množství výrobců?</li>
+                <li>Tipy pro nákup</li>
+              </ul>
+            </p>
+            <h4><strong>O Jiřím</strong></h4>
+            <p>
+            Jiří Opletal zcela propadl zelené vášni jménem Android při svém studiu na taiwanské National Taipei University. Působil zde na College of Computer Science and Information Engineering jako student magisterského studia v týmu uznávaného profesora Jiung-yao Huang Ph.D (黃俊堯 Ph.D), specialisty na ubiquitous computing a mobilní technologie. Právě tam objevil krásu i tvrdost čínské obchodní kultury, díky svým profesorům získal přehled i kontakty v asijské IT sféře a především objevil v té době světu zcela neznámý trh, kde byly v plenkách dnešní giganti jako Xiaomi, Oppo, Doogee, Thl, Meizu a mnoho dalších. Po návratu založil společnost Lion Mobile, distributora nejznámějších čínských značek ve střední a východní Evropě a provozovatelem eshopu XiaomiMobile.cz a Thl.cz
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://www.facebook.com/jiri.opletal" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="holan" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/holan_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Jaroslav Holaň</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Software Magician at TopMonks</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>Zen Programmer</strong></h4>
+            <p>
+              Zamyšlení se o nastavení mysli programátora v dnešní době. Co dělá dobrého programátora dobrým programátorem? Jak se vypořádat s rychle měnícími se technologiemi? Jak efektivně pracovat v týmu?
+              Vývojář, programátor, developer, kodér ...ať už tomu říkate jakkoliv, jsou to role poměrně mladého oboru - vývoje software. To sebou přináší nové přístupy k práci.
+              Povíme si něco o filozofii Zen programmer, o code review, o sdílení znalostí v týmu a dalších praktikách, které usnadňují vývojářům jejich práci.
+            </p>
+            <h4><strong>O Jaroslavovi</strong></h4>
+            <p>
+            Narodil se, žil, studoval a pracoval v Ostravě. Teď je součástí týmu TopMonks v Praze, kde se podílí na vývoji softwaru pro velkou českou banku. Zkušenosti nabral v mnoha národnostně rozdílných týmech. Od spolupráce s lidmi ze severských zemí, přes lidi z indie, až po indy z Kalifornie v mekce všech ajťáků, tedy v Silicon Valley. Primárně programuje v Javě, ale rád zkouší i jiné jazyky. Zastánce technik čistého kódu, TDD, BDD. Spoluautor knihy Vaadin 7 Cookbook, IT Geek a Kouzelník."
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://www.facebook.com/events/802086283242563/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="http://jopenspace.cz/#year2013" target="_blank">
+                <i class="fa fa-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="stanek" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/stanek_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Igor Staněk</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Senior Technical Product Manager SHIELD EMEAI in NVIDIA</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>SHIELD Android TV</strong></h4>
+            <p>
+              Celý život hledáte to ideální multimediální centrum k televizi a pořád se vám to nějak nedaří? Byl jsem na tom úplně stejně, než jsem se s kolegy rozhodl navrhnout něco, co se ke slovu "ideální" co nejvíce bude blížit. Přijďe se podívat, na kolik se nám to podařilo.
+            </p>
+            <h4><strong>O Igorovi</strong></h4>
+            <p>
+            Technický maniak, člen vývojového teamu SHIELD produktů v NVIDII a SHIELD Produktový manager pro EMEAI region, vášnivý hráč a příležitostný DJ. 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/istanek" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/igor_stanek" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="https://www.facebook.com/igor.stanek" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://plus.google.com/108099542569241674407/posts" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="broum" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/broum_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Milan Broum</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">iOS Developer, Google</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>Google a iOS</strong></h4>
+            <p>
+             Nahlédnutí pod pokličku s logem Google.
+              <ul>
+                <li>Jaké výhody a zádrhely má vývoj v rámci velké firmy?</li>
+                <li>Jak vypadá běžný den iOS vývojáře v Googlu?</li>
+                <li>Jak řeší nedostatky iOS ekosystému?</li>
+              </ul>
+            </p>
+            <h4><strong>O Milanovi</strong></h4>
+            <p>
+            Vystudoval navigační systémy na Elektrofakultě ČVUT, kde se věnoval především algoritmům na zpřesnění polohy. Po škole nastoupil u firmy Nokia, kde v roce 2001 začal vyvíjet firmware pro OS Symbian, později v Sony-Ericsson přešel na vývoj uživatelských aplikací a v roce 2009 nastoupil do Londýnského Googlu (Google Mobile App pro telefony Symbian). O rok později začal vyvíjet Google aplikace pro platformu iOS. Ve volných chvílích je k nalezení na vodě pod plachtami nebo nad páječkou či klávesnicí.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://plus.google.com/116658050591606888418" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hybl" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header openhw">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/hybl_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Matouš Hýbl</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Junior Android a iOS developer v Brightify, student</h4>
+                <span class="label label-openhw">Open HW</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-openhw">Open HW</span>
+            <h4><strong>IoT pro SW developery</strong></h4>
+            <p>
+              Obsahem přednášky bude nastínění problematiky stavby jednoduchého IoT zařízení, postaveného na platformě NodeMCU. Konkrétně se bude jednat o velmi jednoduchý návod na to jak postavit elektrickou zásuvku. ovládanou přes WiFi. 
+              NodeMCU je open HW platotforma založená na stále populárnějším WiFi chipu ESP8266.
+            </p>
+            <h4><strong>O Matoušovi</strong></h4>
+            <p>
+              Matouš Hýbl je Android a iOS developer, podílí se na vývoji mobilních aplikací ve společnosti Brightify. Zajímá ho taky vývoj HW, zabýval se hobby robotikou, 3D tiskem a posledního půl roku pracuje na projektu chytré zásuvky.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://cz.linkedin.com/pub/matouš-hýbl/74/3a6/197/en" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="https://plus.google.com/+MatoušHýbl" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="https://github.com/matoushybl" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="kadlec" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/kadlec_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Josef Kadlec</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Chief Recruitment Architect & Founder v GoodCall</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Životopis je mrtvý: Praktická sonda do světa moderního tech recruitmentu</strong></h4>
+            <p>
+              Růst české ekonomiky má za následek to, že poptávka po IT zaměstnancích, speciálně vývojářích, je vyšší než před krizí v roce 2008. Java vývojář v Praze si může vybrat až mezi 300 různými příležitostmi. To jsou ideální podmínky pro tyto zaměstnance, ale naopak to dostává společnosti pod enormní tlak.
+              <ul>
+                <li>talent sourcing: jak dělat efektivní nábor IT zaměstnanců</li>
+                <li>jaké challenge řeší moderní IT recruiter na denní bázi</li>
+                <li>praktické tipy, jak si zvýšit exponovanost a cenu na trhu práce z pohledu zaměstnance</li>
+                <li>jakou roli v tom hraje LinkedIn, Twitter, Facebook, GitHub, Bitbucket, Stack Overflow a další?</li>
+              </ul>
+            </p>
+            <h4><strong>O Josefovi</strong></h4>
+            <p>
+              Absolvent FJFI ČVUT, bývalý ethical hacker a hardcore Linux engineer, který se rozhodl kultivovat trh náboru zaměstnanců. Je zakladatelem společnosti GoodCall, která za rok a půl vyrostla na 50+ zaměstnanců. Je poradcem a investorem ve společnosti Datacruit a autorem světové knihy ""People as Merchandise: Crack the Code to LinkedIn Recruitment"" doporučené osobnostmi jako Barbara Corcoran, Vladimír Kovář, John Vanhara, Odrej Bartos a řediteli společností IBM, AVG, Barclays, Hewlett-Packard nebo Google. Josef je také první oficiálně certifikovaný LinkedIn profesionál ve střední a východní Evropě.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="http://cz.linkedin.com/in/josefkadlec/" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="http://twitter.com/JosefKadlec" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sedlak" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header business">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/sedlak_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Jan Sedlák</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Novinář</h4>
+                <span class="label label-business">Business</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-business">Business</span>
+            <h4><strong>Digitální ekonomika, internet, roboti a Česko</strong></h4>
+            <p>
+              Česká republika má potenciál stát se jednou z nejvýraznějších zemí v oblasti moderních technologií na světě. Co nám tomu chybí? Proč je důležité rozjet takzvanou digitální ekonomiku? A nahradí nás roboti a umělá inteligence?
+            </p>
+            <h4><strong>O Janovi</strong></h4>
+            <p>
+            Novinář zaměřený na technologie a byznys kolem nich. Aktuálně píše články zaměřené na business a technologické společnosti pro server Lupa.cz, týdeník Euro a zahraniční média. V minulosti také pro deník E15 a Živě.cz. Měl vlastní pořad vysílaný v televizi pro server Connect.cz, kde si zval osobnosti z mnoha vysoce postavených firem jako Google, Microsoft, Dell, Oracle, HP, Nvidia a mnoho dalších.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://twitter.com/jansedlak" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="velecky" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/velecky_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Tomáš Velecký</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">SW Developer v Tieto (Google for Work)</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>Tipy a triky pro AppsScript</strong></h4>
+            <p>
+              Trvá AppsScriptu práce se Spreadsheety dlouho? Potřebuješ, aby skript běžel déle než 6 minut? Chceš volat Google API, které nemá AppsScript službu? Přijď si popovídat na workshop nebo Tieto stánek a vydoluj z AppsScriptu maximum!
+            </p>
+            <h4><strong>O Tomášovi</strong></h4>
+            <p>
+            Tomáš pracuje ve společnosti Tieto jako vývojář v Google for Work týmu, kde s kolegy řeší neřešitelné problémy za vydatné pomoci AppEngine, AppsScript, NodeJS, burgerů a piva. Mimo jiné dělá přednášky na témata týkajících se Google služeb a technologií.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/pub/tomas-velecky/4/637/934" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="https://plus.google.com/+TomášVelecký" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="zavada" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/zavada_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Jiří Závada</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Business Consultant v Tieto</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>Internet věcí - řádí zlatá horečka?</strong></h4>
+            <p>
+              Internet věcí  (IoT), Industrial Internet, WoT, Internet of Everything, M2M, Výroba 4.0, V2X, Digitalizace, 3D... média jsou plná očekávání a popisují novou průmyslovou revoluci založenou na sběru, výměně, zpracování a využití informací. Lídři trhu informačních technologií cítí a proklamují zářnou digitální budoucnost, ale jaká je aktuální podoba IoT revoluce zde a nyní? Jaké jsou současné technologické možnosti? Jak na vzedmutou vlnu příležitostí naskočit?
+            </p>
+            <h4><strong>O Jiřím</strong></h4>
+            <p>
+            Původně programátor a vystudovaný robotik se během své profesní historie věnoval tvorbě B2B a B2C aplikací, implementaci rozsáhlých IT řešení a ERP systémů v lokálních i mezinárodních firmách, v poslední době se ve společnosti Tieto zabývá Internetem věcí a 3d tiskem.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/jirizavada" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="hracek" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header development">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--4-col-phone">
+                <img src="../images/speakers/hracek_photo.png" height="100px">
+              </div>
+              <div class="mdl-cell mdl-cell--7-col mdl-cell--5-col-tablet mdl-cell--4-col-phone">
+                <h4 class="modal-title bold" id="myModalLabel"><strong>Filip Hráček</strong></h4>
+                <h4 class="modal-title" id="myModalLabel">Developer Relations for CEE, Google</h4>
+                <span class="label label-development">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <span class="label label-development">Development</span>
+            <h4><strong>Pokročilé algoritmy na webu: Umělá inteligence, Dart a moderní web</strong></h4>
+            <p>
+              Přichází čas, kdy jednoduché MVC na webu již nikoho neohromí (nehledě na to, že je čím dál snažší takové věci "naklikat" nebo přinejmenším outsourcovat juniorním vývojářům). Podíváme se na pár příkladů, kdy se nám u webového programování můžou hodit věci jako prohledávání grafu, A* nebo fuzzy logika.
+            </p>
+            <h4><strong>O Filipovi</strong></h4>
+            <p>
+            Pracuje v Googlu od roku 2008. Snaží se přivádět Google technologie do ČR a pomáhat českým vývojářům je využívat. Ve volném čase píše gamebook a hraje si s umělou inteligencí. Má rád palačinky.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="social-icons">
+              <a href="google.com/+filiphracek" target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
 
     <div class="line"></div>
     <footer class="static-info footer graybg">
@@ -402,7 +1331,7 @@
     <script src="jquery-1.9.1.min.js"></script>
      
     <!-- Include js plugin -->
-    <script src="assets/owl-carousel/owl.carousel.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.js"></script>
 
 
     <!-- Google Map -->

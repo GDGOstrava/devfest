@@ -23,6 +23,84 @@ h1, h2, h3, h4 {
 
 }
 
+.navbar {
+  text-transform: uppercase;
+  background-color: transparent;
+  height:100px;
+  margin-bottom: 0px;
+  border: none;
+  
+}
+
+.navbar-nav>li>a {
+  color: #4E4E4E;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 70px;
+  background-color: transparent;
+
+}
+
+
+
+.development {
+  background-color: #AED581;
+}
+.business {
+  background-color: #9575CD;
+}
+.wtm {
+  background-color: #4DD0E1;
+}
+.openhw {
+  background-color: #FFEB3B;
+}
+.ws {
+  background-color: #FFC107;
+}
+
+/*
+LABELS
+*/
+
+.label-development {
+  background-color: #8BC34A; 
+}
+.label-business {
+  background-color: #673AB7; 
+}
+.label-wtm {
+  background-color: #00BCD4; 
+}
+.label-openhw {
+  background-color: #AFB42B; 
+}
+.label-ws {
+  background-color: #FF6F00; 
+}
+
+.social-icons>a, a:hover {
+  color: #212121;
+  text-decoration: none;
+}
+
+
+
+.navbar-nav>li>a:hover {
+  color: #4E4E4E;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
 .line {
     height: 1px;
     border-bottom: 1px solid #eee;
@@ -111,6 +189,17 @@ p {
       color: #fff;
 }
 
+.mdl-button--white {
+      background: #fff;
+      color: #00BCD4; 
+} 
+
+.mdl-button--white:hover {
+      background: #fff;
+      color: #00BCD4; 
+      font-weight: bold;
+} 
+
 .home, .static-info {
       max-width: 1280px;
       margin: 0 auto;
@@ -118,8 +207,8 @@ p {
 }
 .intro {
     padding-top: 20px;
-    background: url('../images/background-1.png') center / cover;
-    min-height: 650px;
+    background: url('../images/background-1.png') center bottom / cover;
+    min-height: 480px;
 }
 
 .home {
@@ -127,6 +216,14 @@ p {
   
 }
 
+.speaker {
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+
+.speaker:hover>h4 {
+  font-weight: 600;
+}
 
 #speakers-list .item{
   background: #00BCD4;
@@ -234,8 +331,29 @@ footer ul{
 
 @media only screen and (max-width: 500px) {
     body {
-        background-color: lightblue;
+        
     }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1200px;
+  }
+  .intro {
+    min-height: 680px;
+}
 }
 
 
