@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     
     <meta property="og:site_name" content="Devfest.CZ">
-    <meta property="og:title" content="GDG DevFest Ostrava 2015">
+    <meta property="og:title" content="GDG DevFest Ostrava 2015 Team">
     <meta property="og:locale" content="cs_CZ">
     <meta name="description" content="GDG Devfest Czech Republic Ostrava. Největší podzimní vývojářský festival v ČR letos poprvé v Ostravě!!!">
     <meta property="og:description" content="GDG Devfest Czech Republic Ostrava. Největší podzimní vývojářský festival v ČR letos poprvé v Ostravě!!!">
@@ -34,6 +34,30 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
     
+    <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var myLatLng = {lat: 49.830889, lng: 18.162793}
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(myLatLng),
+          zoom: 17,
+          scrollwheel: false,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+
+        }
+        
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Nová Aula - VŠB-TUO'
+        })
+        
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <!-- Attaching Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -79,6 +103,7 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5KTDD8');</script>
     <!-- End Google Tag Manager -->
+      <div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
       <nav class="navbar navbar-fixed-top" role="navigation">
           <div class="container">
               <div class="row">
@@ -93,9 +118,9 @@
 
                           <!--Image-Logo: Remove this comments and the section above Text-Logo if you want to add an Image-Logo (recommended sizes -> max-height:50, max-width:200) -->
 
-                          <a href="#top" class="navbar-brand img-logo scrollto" title="DevFest 2015 Ostrava" style="margin-left:0px;">
+                          <a href="#top" class="navbar-brand img-logo scrollto" title="DevFest 2015 Ostrava">
                             <span class="helper">
-                              <img src="./images/devfest2015.png" width="180" alt="DevFest 2015 Ostrava">
+                              <img src="../images/devfest2015.png" width="160" alt="DevFest 2015 Ostrava">
                             </span>
                           </a> 
 
@@ -105,15 +130,19 @@
                       <div class="navbar-collapse collapse">
                           <ul class="nav navbar-nav navbar-right">
                               <!-- Menu Items -->
-                              <li><a href="http://www.devfest.cz" title="" class="scrollto">DevFest</a></li>
+                              <li><a href="/" title="" class="scrollto">DevFest</a></li>
                               <li><a href="/speakers/" title="" class="scrollto">Speakers</a></li>
-                              <li><a href="#register" title="" class="scrollto">Registrace</a></li>
+                              <li><a href="/program/" title="" class="scrollto">Program</a></li>
+                              <li><a href="/#venue" title="" class="scrollto">Venue</a></li>
+                              <li><a href="/team/" title="" class="scrollto">Team</a></li>
+                              <li><a href="/#register" title="" class="scrollto">Registrace</a></li>
                           </ul>
                       </div><!-- /End Navbar-Collapse -->
                   </div><!-- /End Col -->
               </div><!-- /End Row -->
           </div><!-- /End Container -->
       </nav><!-- /End Sticky Navigation -->
+    </div>
 
     <section id="home" class="intro">
       <div class="mdl-grid static-info">
@@ -126,7 +155,7 @@
           <p>OD VÝVOJÁŘŮ, PRO VÝVOJÁŘE.</p>
           <!-- Flat button -->
         
-          <a href="https://goo.gl/ibqWfG" class="mdl-button mdl-js-button mdl-button--raised" target="_blank">Chci se registrovat</a>
+          <a href="#register" class="mdl-button mdl-js-button mdl-button--raised scrollto">Chci se registrovat</a>
         </div>
         
       </div>
@@ -183,9 +212,15 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/kTgPjL_eAMw" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone" style="margin-top:50px">
-            <H3>REGISTRACE</H3>
-            <H4>A je to tady, registrace oficiálně spuštěny!!!</br>Neváhej a vyplň nám registrační formulář, ale rychle ať na Tebe vyjde místo.</br>Registraci Ti v brzké době potvrdíme mailem ;)</H4>
-            <a href="https://goo.gl/ibqWfG" class="mdl-button mdl-js-button mdl-button--raised" target="_blank" style="margin-top:20px">Chci se registrovat</a>
+            <H3>REGISTRACE pozastaveny</H3>
+            <H4>Ostravske štoly nesu nafukovaci a vic štajgru už tam nenastrkame.</br> Tož stahujeme registrace z povrchu zemskeho.</br> Čučte na socky, bo gdyž se něco uvolni, pisneme tam.</br> Tož zduř dvacateho prveho v Ostravě !!!</H4>
+            <ul style="list-style-type:none;">
+              <li>
+                <a href="https://www.facebook.com/gxgostrava" target="_blank"><i class="fa fa-facebook-square fa-2x" style="color:#757575"></i></a>
+                <a href="https://plus.google.com/events/clhap9jntg7p3rdrd1k0iar1q98" target="_blank"><i class="fa fa-google-plus-square fa-2x" style="color:#757575"></i></a>
+                <a href="https://twitter.com/gug_ostrava" target="_blank"><i class="fa fa-twitter-square fa-2x" style="color:#757575"></i></a>
+            </li>
+            </ul>
           </div>
         </div>
         <div class="mdl-grid">
@@ -254,13 +289,17 @@
       SOCIAL
       </div>
     </section>
-
-    <section id="venue" class="section-primary">
-      <div class="static-info">
-      VENUE
+-->
+    <section id="venue" class="section-primary graybg" style="padding-top:80px;">
+      <div class="static-info text-center">
+      <H3>VENUE</H3>
+      <h4>Nová Aula - Vysoká škola báňská - TUO , 17. listopadu, 708 00 Ostrava-Poruba</h4>
+      <div id="map" style="max-width: 1280px; height: 500px"></div>
       </div>
     </section>
--->
+    <div class="line"></div>
+
+
     <section id="partners" class="section-primary">
       <div class="static-info text-center">
         <H3>PARTNEŘI</H3>
@@ -290,14 +329,17 @@
           <div class="mdl-cell mdl-cell--12-col medial">
             <H4>Mediální partneři</H4>
             <div class="mdl-grid">
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.netovinky.com" target="_blank"><img src="./images/netovinky.png" height="50px" alt="Netovinky.com"></a>
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <a href="http://www.tyinternety.cz" target="_blank"><img src="./images/partners/tyinternety.png" height="50px" alt="tyinternety.cz"></a>
               </div>
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <a href="http://www.netovinky.com" target="_blank"><img src="./images/netovinky.png" height="40px" alt="Netovinky.com"></a>
+              </div>
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
                 <a href="http://www.cnews.cz" target="_blank"><img src="./images/cnews.png" alt="Cnews.cz"></a>
               </div>
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.droidik.eu/" target="_blank"><img src="./images/droidik.png" height="60px" alt="Droidik.eu"></a>
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <a href="http://www.droidik.eu/" target="_blank"><img src="./images/droidik.png" height="50px" alt="Droidik.eu"></a>
               </div>
             </div>
           </div>
@@ -327,10 +369,10 @@
                 <a href="http://www.bon-gusta.cz/" target="_blank"><img src="./images/partners/bongusta.png" height="40px" alt="bon-gusta.cz"></a>
               </div>
               <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.lauracoffee.cz/" target="_blank"><img src="./images/partners/LauraCoffee.png" height="40px" alt="lauracoffee.cz"></a>
+                <a href="http://www.lauracoffee.cz/" target="_blank"><img src="./images/partners/LauraCoffee.png" height="50px" alt="lauracoffee.cz"></a>
               </div>
               <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                <a href="http://www.hospudkaubobra.cz/" target="_blank"><img src="./images/partners/bobr.png" height="40px" alt="www.hospudkaubobra.cz"></a>
+                <a href="http://www.hospudkaubobra.cz/" target="_blank"><img src="./images/partners/bobr.png" height="50px" alt="www.hospudkaubobra.cz"></a>
               </div>
               <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
                 <a href="http://www.maleda.cz/" target="_blank"><img src="./images/partners/maleda.png" height="40px" alt="maleda.cz"></a>
@@ -370,12 +412,19 @@
               <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
                 <a href="http://www.shopsys.cz" target="_blank"><img src="./images/partners/shopsys.png" height="40px" alt="shopsys.cz"></a>
               </div>
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <a href="http://freebit.cz" target="_blank"><img src="./images/partners/freebit.png" height="80px" alt="freebit.cz"></a>
+              </div>
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <a href="http://geeklab.cz/" target="_blank"><img src="./images/partners/geeklab.jpg" height="50px" alt="geeklab.cz"></a>
+              </div>
             </div>    
         </div>
       </div>
-    </section><
+    </section>
 
     <div class="line"></div>
+    <section class="section-primary graybg">
     <footer class="static-info footer graybg">
 
       <div class="mdl-grid">
@@ -441,6 +490,7 @@
           </div>
         </div>
     </footer>
+  </section>
 
 
 
@@ -455,7 +505,7 @@
     <!--<script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>-->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.21/gmaps.min.js"></script>
     <!--  <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/rev-slider.js"></script>-->
@@ -463,12 +513,13 @@
     <!-- Include js plugin -->
     <script src="js/owl.carousel.js"></script>
 
+    
 
 
     <!-- Google Map -->
-      <script type="text/javascript">
+      <!--<script type="text/javascript">
 
-          $('#google-map').gMap({
+          $('#map').gMap({
 
               address: 'Nová aula, 17. listopadu 15, Ostrava-Poruba',
               maptype: 'ROADMAP',
